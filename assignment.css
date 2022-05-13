@@ -86,21 +86,21 @@ display: none
 }
 @media(max-width: 700px){
 		.text h1{
-			font-size: 20px;
+			font-size: 21px;
 		}
 		.nav-links ul li{
 			display: block;
 		}
 		.nav-links{
 			position: fixed;
-			background: blue;
+			background: black;
 			height: 100vh;
 			width: 200px;
 			top: 0;
 			right: -199px;
 			text-align: left;
 			z-index: 2;
-			transition: 0.5s;
+			transition: 1s;
 		}	
 		nav .fa{
 			display: block;
@@ -113,3 +113,20 @@ display: none
 				padding: 31px;
 		}
 }
+
+//--------Portfolio---------//
+.text1{
+	width: 91%;
+	color: white;
+	position: fixed;
+}
+.text1 h1{
+	font-size: 40px;
+	color: white;
+	text-align: center;
+}
+@media(max-width: 700px){
+		.text1 h1{
+			font-size: 20px;
+		}
+
