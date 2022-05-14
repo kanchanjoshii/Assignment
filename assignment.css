@@ -119,8 +119,7 @@ display: none
 	width: 91%;
 	color: white;
 	position: fixed;
-}
-.text1 h1{
+}.text1 h1{
 	font-size: 40px;
 	color: white;
 	text-align: center;
@@ -129,4 +128,4 @@ display: none
 		.text1 h1{
 			font-size: 20px;
 		}
-
+}
