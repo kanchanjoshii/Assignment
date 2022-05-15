@@ -138,7 +138,7 @@ display: none
 .grid{
 	display: flex;
 	grid-gap: 10%;
-	grid-template-columns: 33.33% 33.33% 33.33% 33.33%;
+	grid-template-columns: 20% 20% 20% 20%;
 	color: #fff;
 }
 
@@ -146,5 +146,21 @@ display: none
 		.text1 h1{
 			font-size: 20px;
 		}
+		.text1 p{
+			font-size: 12px;
+			text-align: center;
+		}
+		.grid{
+			display: inline-block;
+		}
+		.text2{
+				text-align: center;
+				color: white;
+		}
+}
 
+/*site report*/
+.text2{
+	text-align: center;
+	color: white;
 }
